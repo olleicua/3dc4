@@ -88,7 +88,7 @@ describe Box do
       end
     end
 
-    context '3x3' do
+    context '2x2x2' do
       let(:n) { 3 }
       let(:m) { 2 }
       let(:box) { [[[1, 2], [3, 4]], [[5, 6], [7, 8]]] }
